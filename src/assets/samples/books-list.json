@@ -1,0 +1,51 @@
+[{
+        "id": 1,
+        "name": "Adventures of Tom Sawyer",
+        "authors": "Mark Twain",
+        "status": "Available",
+        "publised_on": "",
+        "volume": 123,
+        "categoryId": 1,
+        "quantity": 3
+    },
+    {
+        "id": 2,
+        "name": "Agni Veena",
+        "authors": "Kazi Nasrul Islam",
+        "status": "Available",
+        "publised_on": "",
+        "volume": 345,
+        "categoryId": 2,
+        "quantity": 2
+    },
+    {
+        "id": 3,
+        "name": "Playing It My Way",
+        "authors": "Sachin Tendulkar, Boria Mazumder",
+        "status": "Available",
+        "publised_on": "",
+        "volume": 435,
+        "categoryId": 3,
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "name": "A Manifesto For Change",
+        "authors": "Dr A.P.J Abdul Kalam",
+        "status": "Available",
+        "publised_on": "",
+        "volume": 987,
+        "categoryId": 2,
+        "quantity": 1
+    },
+    {
+        "id": 5,
+        "name": "Why I Assassinated Gandhi",
+        "authors": "Nathuram Godse, Gopal Godse",
+        "status": "Available",
+        "publised_on": "",
+        "volume": 234,
+        "categoryId": 2,
+        "quantity": 3
+    }
+]
