@@ -26,7 +26,6 @@ export class MyAccountComponent {
     this.shareDataService.setBookList(bookList);
     this.userDetails.borrowedList.splice(this.userDetails.borrowedList.findIndex(el => el.id === borrowedBook.id), 1);
     this.shareDataService.setActiveUser(this.userDetails);
-    this.borrowedBookList.splice(index, 1);
   }
 
   

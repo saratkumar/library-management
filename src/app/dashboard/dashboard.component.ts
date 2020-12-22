@@ -34,7 +34,7 @@ export class DashboardComponent{
     ).subscribe(data => { this.filterResults(data) });
 
     // To load initial data
-    this.masterBookList = this.shareDataService.getBookList();
+    this.bookList = this.shareDataService.getBookList();
     this.getBooksList();
   }
 
@@ -52,7 +52,7 @@ export class DashboardComponent{
         this.processBookDetails(success);
       }, error =>{console.log(error)});
     } else {
-      this.processBookDetails(this.shareDataService.getBookList());
+      this.processBookDetails(this.bookList);
     }
   }
 
