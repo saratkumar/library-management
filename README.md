@@ -32,8 +32,11 @@ Run `git log` to display the commits
     III. If books are not available, then it will display no records found error message.
     IV.  User can borrow the copy of book in the library using "borrow" action.
             a) Maximum limit for borrow is 2
+            
             b) if the user borrows more than 2 error message, then it will throw error message.
+            
             c) if the user try to borrow already borrowed book, then it will throw error message.
+            
     V.   Once user borrow the book form the library, changes will be reflected on the dashboard quantity column.
     VI.  Addition Info: User can filter books based on categories.
     VII. User can have option to navigate to their borrowed list using "My Account" menu
@@ -41,11 +44,14 @@ Run `git log` to display the commits
 
 3. MyAccountComponent
     I.   User can see their borrowed list here. 
+    
     II.  Once user return the borrowed book, then the changes will be reflecetd on dashboard page.
+    
     III. If the user returns all the books from the borrowed list, then system will display error message.
 
 4. ShareDataService
     I.   ShareDataService will be used for storing the active user related information.
+    
     II   Once system fetch the library books details from the local json, it will store data. for further process, data will be 
          processed from the cache. 
 
