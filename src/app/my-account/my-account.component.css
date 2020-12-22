@@ -1,0 +1,27 @@
+.book-list-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.book-list-table td,
+.book-list-table th {
+    padding: 10px;
+}
+
+.book-list-table thead {
+    background: #a09b9b;
+    color: white
+}
+
+.book-list-table tr {
+    border-bottom: 1px solid #efe8e8
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.text-underline {
+    text-decoration: underline;
+    color: #007bff;
+}
