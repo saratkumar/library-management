@@ -61,3 +61,9 @@ Run `git log` to display the commits
         ii. this will contains sample data for the testing purpose.
     2. Category List    
 
+
+## Note
+
+1. Unit Testcase results attached with the mail as a attachment.
+2. Font family will be different from system to system. 
+

@@ -107,5 +107,6 @@ export class DashboardComponent{
     this.shareDataService.setActiveUser(this.userDetails);
     this.shareDataService.setBookList(this.masterBookList);
     !book.quantity && this.bookList.splice(index, 1);
+    alert('Book successfully added to borrowed list')
   }
 }

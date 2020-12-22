@@ -1,5 +1,5 @@
 <div class="col-md-12 col-sm-12 ">
-    <form class="form-inline " [formGroup]="searchForm">
+    <form class="form-inline mt-3" [formGroup]="searchForm">
         <div class="input-group w-100 justify-content-center">
             <div class="input-group-prepend">
                 <span class="input-group-text"><i class="fa fa-search"></i></span>
@@ -8,17 +8,16 @@
         </div>
     </form>
 </div>
-<div class="col-md-12 col-sm-12 ">
-    <div class="row p-5 justify-content-center m-auto">
-        <label>Categories</label>
-        <div *ngFor="let category of listOfBookCategory;let index = index" class="ml-3">
+<div class="col-md-12">
+    <div class="row justify-content-center p-5">
+        <div *ngFor="let category of listOfBookCategory;let index = index" class="ml-4 m-2">
             <button type="button" class="btn btn-primary custom-catetory-button" [ngClass]="category.categoryClass" (click)="filterResults(category.id, true)">
-        <span>{{category.name}}</span>
-      </button>
+                <span>{{category.name}}</span>
+            </button>
         </div>
     </div>
 
-    <table class="book-list-table" *ngIf="bookList && bookList.length">
+    <table class="w-100 book-list-table overflow-auto" *ngIf="bookList && bookList.length">
         <thead>
             <th>S.No.</th>
             <th>Name</th>
@@ -45,6 +44,7 @@
         </tbody>
 
     </table>
+
     <ng-container *ngIf="!bookList || !bookList.length">
         <div class="alert alert-warning" id="errorMessage">
             -No records found. We will let you know soon. Please try our <span class="text-underline cursor-pointer" (click)="filterResults(1, true)">New Adventure Arrivals</span>

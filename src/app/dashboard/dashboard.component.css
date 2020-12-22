@@ -24,11 +24,6 @@
     border: #009688
 }
 
-.book-list-table {
-    width: 100%;
-    table-layout: fixed;
-}
-
 .book-list-table td,
 .book-list-table th {
     padding: 10px;
